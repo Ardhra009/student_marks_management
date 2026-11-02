@@ -1,0 +1,93 @@
+###
+POST http://127.0.0.1:8000/total/
+Content-Type: application/json
+
+{
+    "maths": 80,
+    "english": 75,
+    "science": 90
+}
+
+
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "total_marks": 450,
+    "maximum_marks": 500
+}
+
+###
+POST http://127.0.0.1:8000/average/
+Content-Type: application/json
+
+{
+    "maths": 80,
+    "english": 75,
+    "science": 90
+}
+
+###
+POST http://127.0.0.1:8000/grade/
+Content-Type: application/json
+
+{
+    "percentage": 85
+}
+
+###
+POST http://127.0.0.1:8000/passfail/
+Content-Type: application/json
+
+{
+    "marks": 35,
+    "pass_mark": 40
+}
+
+###
+POST http://127.0.0.1:8000/attendance/
+Content-Type: application/json
+
+{
+    "present_days": 80,
+    "total_days": 100
+}
+
+###
+POST http://127.0.0.1:8000/bonus/
+Content-Type: application/json
+
+{
+    "marks": 75,
+    "bonus_marks": 5
+}
+
+###
+POST http://127.0.0.1:8000/highest/
+Content-Type: application/json
+
+{
+    "maths": 80,
+    "english": 75,
+    "science": 90
+}
+
+###
+POST http://127.0.0.1:8000/lowest/
+Content-Type: application/json
+
+{
+    "maths": 80,
+    "english": 75,
+    "science": 90
+}
+
+###
+POST http://127.0.0.1:8000/scholarship/
+Content-Type: application/json
+
+{
+    "percentage": 90,
+    "scholarship_amount": 10000
+}
